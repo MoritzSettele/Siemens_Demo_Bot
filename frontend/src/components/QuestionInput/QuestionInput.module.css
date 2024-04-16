@@ -1,0 +1,74 @@
+.questionInputContainer {
+  background: #ffffff;
+  border-radius: 8px;
+
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: relative;
+}
+
+.questionInputTextArea {
+  width: 100%;
+  line-height: 40px;
+  min-height: 48px !important;
+  border: 1px solid #e1dddd;
+}
+
+.questionInputTextArea > .ms-TextField-fieldGroup {
+  min-height: 48px !important;
+}
+
+.questionInputTextArea > div > div {
+  min-height: 48px !important;
+}
+
+.questionInputTextArea > div > div > textarea {
+  padding-top: 15px;
+  height: 48px ;
+  overflow: hidden;
+
+}
+
+
+.questionInputSendButtonContainer {
+  position: absolute;
+  right: 10px;
+  bottom: 8px;
+}
+
+.questionInputSendButton {
+  width: 24px;
+  height: 23px;
+}
+
+.questionInputSendButtonDisabled {
+  width: 24px;
+  height: 23px;
+  background: none;
+  color: #424242;
+}
+
+.questionInputBottomBorder {
+  position: absolute;
+  height: 8px;
+  right: 0%;
+  bottom: 0%;
+}
+
+.questionInputBottomBorder p {
+  color: #707070;
+
+  text-align: right;
+  font-family: Arial;
+  font-size: 10px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.questionInputOptionsButton {
+  cursor: pointer;
+  width: 27px;
+  height: 30px;
+}
